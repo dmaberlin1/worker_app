@@ -1,13 +1,6 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
-</head>
-<body>
-Index page
+@extends('layout.main')
 
+@section('content')
 <div>
     <hr>
 
@@ -25,5 +18,5 @@ Index page
         <hr>
 
 </div>
-</body>
-</html>
+
+@endsection

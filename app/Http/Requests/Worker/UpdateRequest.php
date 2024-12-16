@@ -4,7 +4,7 @@ namespace App\Http\Requests\Worker;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class StoreRequest extends FormRequest
+class UpdateRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -43,4 +43,5 @@ class StoreRequest extends FormRequest
             'is_married.string'=>'Это поле должно быть строкой',
         ];
     }
+
 }
